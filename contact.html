@@ -1,1 +1,261 @@
-Placeholder for contact.html
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | Rudra Graphics Pune</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-gray-50">
+
+<!-- Hero Section -->
+
+<section class="bg-slate-900 text-white py-28">
+
+    <div class="container mx-auto px-6 text-center">
+
+        <h1 class="text-5xl font-bold mb-6">
+            Contact Rudra Graphics
+        </h1>
+
+        <p class="text-xl max-w-3xl mx-auto">
+            Get in touch with our team for printing,
+            branding, signage and advertising solutions.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- Contact Information -->
+
+<section class="py-20">
+
+    <div class="container mx-auto px-6">
+
+        <div class="grid lg:grid-cols-2 gap-12">
+
+            <!-- Contact Details -->
+
+            <div>
+
+                <h2 class="text-4xl font-bold mb-8">
+                    Get In Touch
+                </h2>
+
+                <div class="space-y-6">
+
+                    <div class="bg-white p-6 rounded-xl shadow">
+
+                        <h3 class="font-bold text-xl mb-2">
+                            📍 Office Address
+                        </h3>
+
+                        <p>
+                            15 No, Solapur Road,
+                            Survey No.15,
+                            Hadapsar,
+                            Pune - 411028
+                        </p>
+
+                    </div>
+
+                    <div class="bg-white p-6 rounded-xl shadow">
+
+                        <h3 class="font-bold text-xl mb-2">
+                            📞 Phone Number
+                        </h3>
+
+                        <a href="tel:+919527839464">
+                            +91 95278 39464
+                        </a>
+
+                    </div>
+
+                    <div class="bg-white p-6 rounded-xl shadow">
+
+                        <h3 class="font-bold text-xl mb-2">
+                            ✉ Email
+                        </h3>
+
+                        <a href="mailto:info@rudragraphics.in">
+                            info@rudragraphics.in
+                        </a>
+
+                    </div>
+
+                    <div class="bg-white p-6 rounded-xl shadow">
+
+                        <h3 class="font-bold text-xl mb-2">
+                            💬 WhatsApp
+                        </h3>
+
+                        <a href="https://wa.me/919527839464"
+                           target="_blank"
+                           class="text-green-600 font-semibold">
+
+                            Chat On WhatsApp
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Contact Form -->
+
+            <div class="bg-white p-8 rounded-xl shadow">
+
+                <h2 class="text-3xl font-bold mb-8">
+                    Send Us A Message
+                </h2>
+
+                <form action="forms/contact.php" method="POST">
+
+                    <div class="mb-5">
+
+                        <input
+                            type="text"
+                            name="name"
+                            placeholder="Your Name"
+                            required
+                            class="w-full border p-4 rounded-lg">
+
+                    </div>
+
+                    <div class="mb-5">
+
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="Your Email"
+                            required
+                            class="w-full border p-4 rounded-lg">
+
+                    </div>
+
+                    <div class="mb-5">
+
+                        <input
+                            type="tel"
+                            name="phone"
+                            placeholder="Your Phone Number"
+                            required
+                            class="w-full border p-4 rounded-lg">
+
+                    </div>
+
+                    <div class="mb-5">
+
+                        <select
+                            name="service"
+                            class="w-full border p-4 rounded-lg">
+
+                            <option>
+                                Select Service
+                            </option>
+
+                            <option>
+                                Printing
+                            </option>
+
+                            <option>
+                                Signage
+                            </option>
+
+                            <option>
+                                Branding
+                            </option>
+
+                            <option>
+                                Graphic Design
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="mb-5">
+
+                        <textarea
+                            name="message"
+                            rows="5"
+                            placeholder="Tell us about your project"
+                            class="w-full border p-4 rounded-lg"></textarea>
+
+                    </div>
+
+                    <button
+                        type="submit"
+                        class="bg-blue-700 text-white px-8 py-4 rounded-lg w-full">
+
+                        Send Message
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Google Map -->
+
+<section>
+
+    <iframe
+        src="https://www.google.com/maps/embed"
+        width="100%"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+    </iframe>
+
+</section>
+
+<!-- CTA -->
+
+<section class="bg-yellow-500 py-20">
+
+    <div class="container mx-auto px-6 text-center">
+
+        <h2 class="text-4xl font-bold mb-6">
+            Need A Custom Quote?
+        </h2>
+
+        <p class="text-lg mb-8">
+            Tell us your requirements and we'll provide
+            the best solution for your business.
+        </p>
+
+        <a href="quote.html"
+           class="bg-black text-white px-8 py-4 rounded-lg">
+
+            Request Quote
+
+        </a>
+
+    </div>
+
+</section>
+
+</body>
+
+</html>
+```

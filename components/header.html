@@ -1,1 +1,177 @@
-Placeholder for components/header.html
+```html
+<!-- Navbar Start -->
+<header class="bg-white shadow-md sticky top-0 z-50">
+
+    <div class="container mx-auto px-6">
+
+        <div class="flex items-center justify-between h-20">
+
+            <!-- Logo -->
+            <a href="../index.html" class="flex items-center">
+
+                <img
+                    src="../assets/images/logo.png"
+                    alt="Rudra Graphics"
+                    class="h-14">
+
+            </a>
+
+            <!-- Desktop Menu -->
+            <nav class="hidden lg:flex items-center gap-8">
+
+                <a href="../index.html"
+                   class="font-medium text-gray-700 hover:text-blue-700">
+                    Home
+                </a>
+
+                <a href="../about.html"
+                   class="font-medium text-gray-700 hover:text-blue-700">
+                    About
+                </a>
+
+                <!-- Services Dropdown -->
+                <div class="relative group">
+
+                    <button
+                        class="font-medium text-gray-700 hover:text-blue-700 flex items-center gap-1">
+
+                        Services
+
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             width="16"
+                             height="16"
+                             fill="currentColor"
+                             viewBox="0 0 16 16">
+                            <path d="M1.5 5.5L8 12l6.5-6.5"/>
+                        </svg>
+
+                    </button>
+
+                    <div
+                        class="absolute left-0 mt-2 w-64 bg-white shadow-xl rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+
+                        <a href="../services/printing.html"
+                           class="block px-5 py-3 hover:bg-gray-100">
+                            Printing Services
+                        </a>
+
+                        <a href="../services/signage.html"
+                           class="block px-5 py-3 hover:bg-gray-100">
+                            Signage Solutions
+                        </a>
+
+                        <a href="../services/branding.html"
+                           class="block px-5 py-3 hover:bg-gray-100">
+                            Corporate Branding
+                        </a>
+
+                        <a href="../services/graphic-design.html"
+                           class="block px-5 py-3 hover:bg-gray-100">
+                            Graphic Design
+                        </a>
+
+                        <a href="../services/digital-marketing.html"
+                           class="block px-5 py-3 hover:bg-gray-100">
+                            Digital Marketing
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- Products Dropdown -->
+                <div class="relative group">
+
+                    <button
+                        class="font-medium text-gray-700 hover:text-blue-700 flex items-center gap-1">
+
+                        Products
+
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             width="16"
+                             height="16"
+                             fill="currentColor"
+                             viewBox="0 0 16 16">
+                            <path d="M1.5 5.5L8 12l6.5-6.5"/>
+                        </svg>
+
+                    </button>
+
+                    <div
+                        class="absolute left-0 mt-2 w-64 bg-white shadow-xl rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+
+                        <a href="../products/banners.html"
+                           class="block px-5 py-3 hover:bg-gray-100">
+                            Banners
+                        </a>
+
+                        <a href="../products/standees.html"
+                           class="block px-5 py-3 hover:bg-gray-100">
+                            Standees
+                        </a>
+
+                        <a href="../products/glow-sign-board.html"
+                           class="block px-5 py-3 hover:bg-gray-100">
+                            Glow Sign Boards
+                        </a>
+
+                        <a href="../products/acp-sign-board.html"
+                           class="block px-5 py-3 hover:bg-gray-100">
+                            ACP Sign Boards
+                        </a>
+
+                        <a href="../products/stickers.html"
+                           class="block px-5 py-3 hover:bg-gray-100">
+                            Stickers
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <a href="../portfolio.html"
+                   class="font-medium text-gray-700 hover:text-blue-700">
+                    Portfolio
+                </a>
+
+                <a href="../testimonials.html"
+                   class="font-medium text-gray-700 hover:text-blue-700">
+                    Reviews
+                </a>
+
+                <a href="../blog.html"
+                   class="font-medium text-gray-700 hover:text-blue-700">
+                    Blog
+                </a>
+
+                <a href="../contact.html"
+                   class="font-medium text-gray-700 hover:text-blue-700">
+                    Contact
+                </a>
+
+            </nav>
+
+            <!-- CTA Button -->
+            <a href="../quote.html"
+               class="hidden lg:inline-block bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-800 transition">
+
+                Get A Quote
+
+            </a>
+
+            <!-- Mobile Menu Button -->
+            <button
+                id="mobile-menu-btn"
+                class="lg:hidden">
+
+                ☰
+
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+<!-- Navbar End -->
+```

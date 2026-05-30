@@ -1,1 +1,272 @@
-Placeholder for quote.html
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Get Free Quote | Rudra Graphics Pune</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-gray-50">
+
+<!-- Hero Section -->
+
+<section class="bg-blue-900 text-white py-24">
+
+    <div class="container mx-auto px-6 text-center">
+
+        <h1 class="text-5xl font-bold mb-6">
+            Request A Free Quote
+        </h1>
+
+        <p class="text-xl max-w-3xl mx-auto">
+            Tell us your requirements and receive
+            a customized quotation for your project.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- Quote Form -->
+
+<section class="py-20">
+
+    <div class="container mx-auto px-6">
+
+        <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl p-10">
+
+            <h2 class="text-4xl font-bold text-center mb-10">
+                Project Information
+            </h2>
+
+            <form action="forms/quote.php" method="POST">
+
+                <div class="grid md:grid-cols-2 gap-6">
+
+                    <div>
+                        <label class="font-semibold">
+                            Full Name
+                        </label>
+
+                        <input
+                            type="text"
+                            name="name"
+                            required
+                            class="w-full border p-4 rounded-lg mt-2">
+                    </div>
+
+                    <div>
+                        <label class="font-semibold">
+                            Phone Number
+                        </label>
+
+                        <input
+                            type="tel"
+                            name="phone"
+                            required
+                            class="w-full border p-4 rounded-lg mt-2">
+                    </div>
+
+                    <div>
+                        <label class="font-semibold">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            name="email"
+                            class="w-full border p-4 rounded-lg mt-2">
+                    </div>
+
+                    <div>
+                        <label class="font-semibold">
+                            Company Name
+                        </label>
+
+                        <input
+                            type="text"
+                            name="company"
+                            class="w-full border p-4 rounded-lg mt-2">
+                    </div>
+
+                </div>
+
+                <div class="mt-6">
+
+                    <label class="font-semibold">
+                        Service Required
+                    </label>
+
+                    <select
+                        name="service"
+                        class="w-full border p-4 rounded-lg mt-2">
+
+                        <option>Printing Services</option>
+                        <option>Signage Solutions</option>
+                        <option>Corporate Branding</option>
+                        <option>Graphic Design</option>
+                        <option>Digital Marketing</option>
+                        <option>Vehicle Branding</option>
+                        <option>Packaging Design</option>
+
+                    </select>
+
+                </div>
+
+                <div class="mt-6">
+
+                    <label class="font-semibold">
+                        Product Required
+                    </label>
+
+                    <select
+                        name="product"
+                        class="w-full border p-4 rounded-lg mt-2">
+
+                        <option>Visiting Cards</option>
+                        <option>Brochures</option>
+                        <option>Pamphlets</option>
+                        <option>ACP Sign Boards</option>
+                        <option>Glow Sign Boards</option>
+                        <option>Standees</option>
+                        <option>Vinyl Printing</option>
+
+                    </select>
+
+                </div>
+
+                <div class="mt-6">
+
+                    <label class="font-semibold">
+                        Estimated Budget
+                    </label>
+
+                    <select
+                        name="budget"
+                        class="w-full border p-4 rounded-lg mt-2">
+
+                        <option>₹5,000 - ₹10,000</option>
+                        <option>₹10,000 - ₹25,000</option>
+                        <option>₹25,000 - ₹50,000</option>
+                        <option>₹50,000 - ₹1,00,000</option>
+                        <option>₹1,00,000+</option>
+
+                    </select>
+
+                </div>
+
+                <div class="mt-6">
+
+                    <label class="font-semibold">
+                        Project Details
+                    </label>
+
+                    <textarea
+                        name="requirements"
+                        rows="6"
+                        placeholder="Describe your project requirements..."
+                        class="w-full border p-4 rounded-lg mt-2"></textarea>
+
+                </div>
+
+                <div class="mt-8">
+
+                    <button
+                        type="submit"
+                        class="w-full bg-blue-700 text-white py-4 rounded-lg text-lg font-semibold">
+
+                        Submit Quote Request
+
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Benefits -->
+
+<section class="bg-white py-20">
+
+    <div class="container mx-auto px-6">
+
+        <div class="grid md:grid-cols-4 gap-8 text-center">
+
+            <div>
+                <h3 class="text-4xl font-bold text-blue-700">
+                    5000+
+                </h3>
+                <p>Projects Completed</p>
+            </div>
+
+            <div>
+                <h3 class="text-4xl font-bold text-blue-700">
+                    1000+
+                </h3>
+                <p>Happy Clients</p>
+            </div>
+
+            <div>
+                <h3 class="text-4xl font-bold text-blue-700">
+                    24 Hours
+                </h3>
+                <p>Quick Response</p>
+            </div>
+
+            <div>
+                <h3 class="text-4xl font-bold text-blue-700">
+                    5.0★
+                </h3>
+                <p>Google Rating</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CTA -->
+
+<section class="bg-yellow-500 py-16 text-center">
+
+    <div class="container mx-auto px-6">
+
+        <h2 class="text-4xl font-bold mb-4">
+            Need Immediate Assistance?
+        </h2>
+
+        <p class="mb-8">
+            Contact our team directly on WhatsApp.
+        </p>
+
+        <a
+            href="https://wa.me/919527839464"
+            target="_blank"
+            class="bg-black text-white px-8 py-4 rounded-lg">
+
+            Chat On WhatsApp
+
+        </a>
+
+    </div>
+
+</section>
+
+</body>
+</html>
+```
