@@ -1,0 +1,1 @@
+Placeholder for admin/manage-quotes.php
